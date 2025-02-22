@@ -1,0 +1,54 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Environment variables and secrets
+.env
+*.env
+config.json
+instance/
+
+# Logs and local files
+logs/
+*.log
+*.out
+*.err
+
+# Database files
+*.sqlite3
+*.db
+
+# Cache and temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+
+# Flask-specific
+instance/
+instance/*
+*.pid
+
+# Pytest and coverage reports
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# VS Code settings
+.vscode/
