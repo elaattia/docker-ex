@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php
+echo "<!DOCTYPE html>
 <html lang='en'>
 <head>
     <meta charset='UTF-8'>
@@ -37,10 +38,11 @@
 </head>
 <body>
     <div class='container'>
-        <h2>👋 Hello, Dev Community! 🚀 [html+docker example]</h2>
+        <h2>👋 Hello, Dev Community! 🚀 [php+docker example]</h2>
         <p>Join us and be part of an amazing group of developers! 💡🔥</p>
         <p>💻 <strong>Le bon développeur 🇹🇳 المبرمج المناسب</strong> 💻</p>
         <p>🔗 <a href='https://www.facebook.com/groups/lebondeveloppeur' target='_blank'>Click here to join now!</a></p>
     </div>
 </body>
-</html>
+</html>";
+?>

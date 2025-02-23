@@ -1,0 +1,16 @@
+# Ignore Maven target directory
+/target/
+
+# Ignore IDE project files (IntelliJ, Eclipse)
+.idea/
+.project
+.classpath
+.settings/
+
+# Ignore local environment settings
+.env
+
+# Ignore logs and OS-specific files
+*.log
+.DS_Store
+Thumbs.db
