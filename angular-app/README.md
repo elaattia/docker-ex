@@ -19,11 +19,11 @@ docker build -t angular-app-image .
 
 ### 3. Run the Docker Container
 ```sh
-docker run -d --name angular-app-container -p 5005:80 angular-app-image
+docker run -d --name angular-app-container -p 5001:80 angular-app-image
 ```
 
 ## Access the Application
 Open your browser and navigate to:
 ```
-http://localhost:5005
+http://localhost:5001
 ```
