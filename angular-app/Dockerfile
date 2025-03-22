@@ -20,7 +20,7 @@ RUN npm run build
 FROM nginx:alpine
 
 # Copy the build output to the Nginx folder
-COPY --from=build /app/dist/angular-app /usr/share/nginx/html
+COPY --from=build /app/dist/angular-app/browser /usr/share/nginx/html
 
 # Expose the port that Nginx will use
 EXPOSE 80
