@@ -9,5 +9,8 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 COPY --from=build /app/target/demo-0.0.1-SNAPSHOT.jar /app/demo.jar
 
+# Step 9: Expose port 80 for the container
+EXPOSE 8080
+
 # Run the application
 ENTRYPOINT ["java", "-jar", "demo.jar"]

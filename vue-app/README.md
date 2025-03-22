@@ -1,24 +1,29 @@
-# vue-app
+# Learn Dockerfile with a vue Project
 
-## Project setup
-```
-yarn install
-```
+This repository contains a vue project that can be easily run using Docker. Follow the steps below to set up and run the project.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Getting Started
 
-### Compiles and minifies for production
-```
-yarn build
+**Note:** Ensure that the `Dockerfile` exists in the `vue-app` directory before proceeding.
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/DevOps-Lebondeveloppeur/docker-examples.git
+cd docker-examples/vue-app
 ```
 
-### Lints and fixes files
-```
-yarn lint
+### 2. Build the Docker Image
+```sh
+docker build -t vue-app-image .
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 3. Run the Docker Container
+```sh
+docker run -d --name vue-app-container -p 5008:80 vue-app-image
+```
+
+## Access the Application
+Open your browser and navigate to:
+```
+http://localhost:5008
+```
