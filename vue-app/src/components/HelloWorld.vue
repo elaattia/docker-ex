@@ -4,6 +4,15 @@
     <p>Join us and be part of an amazing group of developers! 💡🔥</p>
     <p>💻 <strong>Le bon développeur 🇹🇳 المبرمج المناسب</strong> 💻</p>
     <p>🔗 <a href="https://www.facebook.com/groups/lebondeveloppeur" target="_blank">Click here to join now!</a></p>
+
+    <!-- Advertisement Banner -->
+    <div class="ad-banner">
+      <a href="https://certificate.lebondeveloppeur.com/devops-lebondeveloppeur/devops-44h.png" target="_blank">
+        <img src="https://certificate.lebondeveloppeur.com/devops-lebondeveloppeur/devops-44h.png"
+          alt="DevOps Training Banner">
+      </a>
+    </div>
+
   </div>
 </template>
 
@@ -40,5 +49,14 @@ a {
 
 a:hover {
   color: #d43f00;
+}
+
+.ad-banner {
+  margin-top: 20px;
+}
+
+.ad-banner img {
+  width: 100%;
+  border-radius: 10px;
 }
 </style>
